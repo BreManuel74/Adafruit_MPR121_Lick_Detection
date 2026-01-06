@@ -64,7 +64,7 @@ void loop() {
     lickBaseline1[i] = (1.0 - alpha) * lickBaseline1[i] + alpha * raw;
     float lickSignal = raw - lickBaseline1[i];
 
-    Serial.print(lickSignal);
+    Serial.print(raw);
     Serial.print(" ");
   }
 
