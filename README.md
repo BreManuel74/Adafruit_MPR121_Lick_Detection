@@ -5,7 +5,7 @@
 
 - Python logging script for saving timestamps and all 24 sensor readings
 
-# Current Arduino Versions
+# Current Versions
 - v1: This is the original Adafruit MPR121test library modified to have 2 boards and use the Autoconfig feature. The Autoconfig feature enables baseline and sensitivity calibrations.
 - v2: This version attempts to use Autoconfig to initially calibrate the setup and then lock those changes by disabling Autoconfig. New touch and release thresholds are manually set. However, this did not seem to improve signal detection.
 - v3: This is the currently recommended version of the setup. Chip parameters are frozen and baselineData and filteredData are directly used for capacitance calculations. There is an optional baseline restoration filter that can be used by printing 'licksignal' instead of 'raw'.
