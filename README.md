@@ -1,7 +1,7 @@
 # Adafruit_MPR121_Lick_Detection
-Arduino scripts modified for use with 2 connected Adafruit MPR121 boards
+- Arduino scripts modified for use with 2 connected Adafruit MPR121 boards
 
-Modifications were made to improve capacitive spiking for home-cage mouse lick detection
+- Modifications were made to improve capacitive spiking for home-cage mouse lick detection
 
 # Current Versions
 - v1: This is the original Adafruit MPR121test library modified to have 2 boards and use the Autoconfig feature. The Autoconfig feature enables baseline and sensitivity calibrations.
